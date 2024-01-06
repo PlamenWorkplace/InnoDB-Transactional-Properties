@@ -7,7 +7,6 @@ spring:
   main:
     banner-mode: off
   jpa:
-
     show-sql: true
     database: mysql
     properties:
@@ -20,9 +19,6 @@ logging:
     com:
       spring:
         testing: DEBUG
-    web: DEBUG
     org:
       hibernate:
         sql: DEBUG
-      springframework:
-        web: DEBUG
